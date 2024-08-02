@@ -8,7 +8,7 @@ ruoyi:
   copyrightYear: 2024
 
 captcha:
-  enable: true
+  enable: false
   # 页面 <参数设置> 可开启关闭 验证码校验
   # 验证码类型 math 数组计算 char 字符验证
   type: MATH
@@ -128,7 +128,7 @@ security:
 # 多租户配置
 tenant:
   # 是否开启
-  enable: true
+  enable: false
   # 排除表
   excludes:
     - sys_menu
